@@ -43,7 +43,7 @@ export default function ThemeBtn() {
       </div>
 
       {/* Label */}
-      <span className="text-sm font-medium text-neutral-700 dark:text-neutral-200">
+      <span className="hidden sm:block text-sm font-medium text-neutral-700 dark:text-neutral-200">
         {themeMode === "dark" ? "DM" : "LM"}
       </span>
     </label>
