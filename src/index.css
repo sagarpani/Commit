@@ -1,7 +1,10 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Apple-style scrollbar */
+*{
+  
+  box-sizing: border-box;
+}
 
 ::-webkit-scrollbar {
   width: 6px;
