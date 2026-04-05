@@ -19,7 +19,7 @@ function TodoForm() {
   };
 
   return (
-    <form onSubmit={add} className="flex gap-2">
+    <form onSubmit={add} className="flex flex-col sm:flex-row gap-2">
 
   <input
     onKeyDown={(e) => (e.key === "Enter" && add(e))}
